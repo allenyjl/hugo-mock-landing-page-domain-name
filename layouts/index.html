@@ -3,10 +3,21 @@
 <section class="section bd-masthead">
   <div class="container-xxl">
     <div class="col-md-8 mx-auto text-center my-5">
-      <img class="d-block mx-auto mb-3" src="{{ `images/logo.svg` | relURL }}" width="150" height="150" alt="Bootstrap">
+      <svg xmlns="http://www.w3.org/2000/svg" width="10em" height="10em" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Muffin</title>
+  <desc>A line styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  d="M10.5 36.5s2.6 20.7 2.8 23.1A2.4 2.4 0 0 0 16 62h31.9a2.4 2.4 0 0 0 2.6-2.4c.3-2.4 2.9-23.4 2.9-23.4M20 46l1.6 16M44 46l-1.6 16M32 46v16"
+  fill="none" stroke="#202020" stroke-linecap="round" stroke-linejoin="round"
+  stroke-width="2"></path>
+  <path data-name="layer1" d="M32 2C18.3 2 6 16.7 6 28s11.3 10 16 10h24.1c4.8 0 11.7-2 11.9-10S50.5 2 32 2zM20 20l-2 2m14-2l-2 2m-2-10l-2 2m14-2l-2 2m6 6l-2 2"
+  fill="none" stroke="#202020" stroke-linecap="round" stroke-linejoin="round"
+  stroke-width="2"></path>
+</svg>
       <h1 class="display-4 fw-semibold mb-3">{{ .Site.Title }}</h1>
       <p class="lead mb-4">{{ .Site.Params.Description }}</p>
-      <a class="btn btn-bd-primary btn-lg px-4 mb-2" href="https://github.com/allenyjl/hugo-mock-landing-page" role="button">Get Started</a>
+      <a class="btn btn-bd-primary btn-lg px-4 mb-2" href="https://github.com/filipecarneiro/hugo-bootstrap-theme" role="button">Get Started</a>
       <p class="text-muted mb-0">Open-source MIT Licensed.</p>
     </div>
   </div>
@@ -15,4 +26,6 @@
 <section class="section container my-3">
   {{ partial "features" . }}
 </section>
+
+
 {{ end }}
