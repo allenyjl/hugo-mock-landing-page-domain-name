@@ -1,4 +1,4 @@
-baseURL = 'allenyjl.github.io/hugo-mock-landing-page/'
+baseURL = 'https://allenyjl.github.io/hugo-mock-landing-page/'
 title = "Split Eats"
 author = "Allen Liu"
 copyright = "Allen Liu"
