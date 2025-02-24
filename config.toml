@@ -1,4 +1,4 @@
-baseURL = 'spliteats.cfd'
+baseURL = 'https://spliteats.cfd/'
 title = "Split Eats"
 author = "Allen Liu"
 copyright = "Allen Liu"
